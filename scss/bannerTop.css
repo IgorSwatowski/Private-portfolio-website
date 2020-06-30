@@ -52,7 +52,11 @@
     position: absolute;
     width: 130px;
     height: auto;
-    transform: rotateY(190deg);
+    transform: rotate(420deg);
+    -ms-transform: rotate(420deg);
+    -moz-transform: rotate(420deg);
+    -webkit-transform: rotate(420deg);
+    -o-transform: rotate(420deg);
     margin-left: -60px;
     margin-top: -40px;
   }
@@ -110,11 +114,15 @@
   }
   #banner-top-info .image_abstract_item img {
     position: absolute;
-    width: 150px;
+    width: 140px;
     max-width: 100%;
     height: auto;
-    transform: rotateY(190deg);
-    margin-left: -80px;
+    transform: rotate(420deg);
+    -ms-transform: rotate(420deg);
+    -moz-transform: rotate(420deg);
+    -webkit-transform: rotate(420deg);
+    -o-transform: rotate(420deg);
+    margin-left: -60px;
     margin-top: -150px;
   }
 }
