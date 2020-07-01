@@ -5,10 +5,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 32px;
+            font-size: 34px;
             font-family: 'Rokkitt', serif;
             margin-top: 150px;
-            color: linear-gradient(0.25turn, #146B7E,#2BD8FE);
+            background: -webkit-linear-gradient(0.25turn,#146B7E,#2BD8FE);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
              
             img{
                 display: none;
@@ -54,10 +56,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 32px;
+            font-size: 34px;
             font-family: 'Rokkitt', serif;
             margin-top: 150px;
-            color: linear-gradient(0.25turn, #146B7E,#2BD8FE);
+            background: -webkit-linear-gradient(0.25turn,#146B7E,#2BD8FE);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
              
             img{
                 display: none;
@@ -118,10 +122,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 37px;
+            font-size: 38px;
             font-family: 'Rokkitt', serif;
             margin-top: 160px;
-            color: linear-gradient(0.25turn, #146B7E,#2BD8FE);
+            background: -webkit-linear-gradient(0.25turn,#146B7E,#2BD8FE);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
              
             img{
                 display: none;
@@ -191,7 +197,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 39px;
+            font-size: 40px;
             font-family: 'Rokkitt', serif;
             margin-top: 250px;
             margin-bottom: 50px;
@@ -278,7 +284,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 39px;
+            font-size: 40px;
             font-family: 'Rokkitt', serif;
             margin-top: 300px;
             margin-bottom: 50px;
