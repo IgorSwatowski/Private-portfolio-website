@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="scss/navMedia.css"/>
   <link rel="stylesheet" href="scss/bannerTop.css"/>
   <link rel="stylesheet" href="scss/aboutme.css"/>
+  <link rel="stylesheet" href="scss/portfolio.css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- END SCRIPTS -->
 
@@ -41,7 +42,7 @@
   <ul class="nav-links">
     <li><a href="#">Strona Główna</a></li>
     <li><a href="#">O mnie</a></li>
-    <li><a href="#">Portfolio</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
     <li><a href="#">Dlaczego ja?</a></li>
     <li><a href="#">Kontakt</a></li>
   </ul>
@@ -82,19 +83,25 @@
   
 <div id="portfolio">
      <div class="portfolio-text">
-       <h2>Sprawdź moje realizacje. Dowiesz się, dlaczego wszyscy moi klienci są zadowoleni.</h2>
-       <img src="img/grades.png"/>
+       <h2>Sprawdź moje realizacje. Dowiesz się, dlaczego <b>wszyscy</b> moi klienci są zadowoleni.</h2>
+       <img src="img/grade.png"/>
+     </div>
+     <div class="next_and_back_slide_show">
+      <button class="left-arrow" onclick="plusDivs(-1)"><img src="img/back.svg"></button>
+      <button class="right-arrow" onclick="plusDivs(+1)"><img src="img/next.svg"></button>
      </div>
      <div class="portfolio-item">
-       <img src="img/portfolio1.png"/>
+       <img src="img/monitor.png"/>
      </div>
      <div class="portfolio-item">
-      <img src="img/portfolio2.png"/>
+      <img src="img/monitor2.png"/>
     </div>
     <div class="portfolio-item">
-      <img src="img/portfolio3.png"/>
+      <img src="img/monitor3.png"/>
     </div>
-    <button>Podoba mi się, poproszę i ja </button>
+    <div class="getproject">
+      <button>Podoba mi się, poproszę i ja </button>
+    </div>
 </div>
 
 <div id="offer">
@@ -160,6 +167,7 @@
 
 
 <script src="js/hamburger-menu.js"></script>
+<script src="js/slide-show.js"></script>
 </body>
 
 

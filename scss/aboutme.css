@@ -3,9 +3,15 @@
     overflow-x: hidden;
   }
   #about-me h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 34px;
     font-family: 'Rokkitt', serif;
     margin-top: 150px;
@@ -17,9 +23,15 @@
     display: none;
   }
   #about-me .info_about_me p {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     margin-left: 3%;
     margin-right: 3%;
@@ -32,12 +44,22 @@
   #about-me button {
     border: none;
     border-radius: 25px;
+    background: -webkit-gradient(linear, left top, right top, from(#1DA1A9), to(#10D2FD));
     background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 auto;
     padding: 10px;
     width: 180px;
@@ -50,9 +72,15 @@
     overflow-x: hidden;
   }
   #about-me h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 34px;
     font-family: 'Rokkitt', serif;
     margin-top: 150px;
@@ -64,9 +92,15 @@
     display: none;
   }
   #about-me .info_about_me p {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -79,21 +113,37 @@
   #about-me button {
     border: none;
     border-radius: 25px;
+    background: -webkit-gradient(linear, left top, right top, from(#1DA1A9), to(#10D2FD));
     background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 auto;
     padding: 10px;
     width: 180px;
     margin-top: 50px;
   }
   #about-me img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: right;
-    align-items: right;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    -webkit-box-align: right;
+        -ms-flex-align: right;
+            align-items: right;
     float: right;
     width: 90px;
     height: auto;
@@ -112,9 +162,15 @@
     overflow-x: hidden;
   }
   #about-me h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 38px;
     font-family: 'Rokkitt', serif;
     margin-top: 160px;
@@ -126,9 +182,15 @@
     display: none;
   }
   #about-me .info_about_me p {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -143,9 +205,15 @@
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 auto;
     margin-top: -210px;
     margin-left: -210px;
@@ -161,12 +229,22 @@
   #about-me button {
     border: none;
     border-radius: 25px;
+    background: -webkit-gradient(linear, left top, right top, from(#1DA1A9), to(#10D2FD));
     background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 auto;
     padding: 10px;
     width: 180px;
@@ -182,9 +260,15 @@
     overflow-x: hidden;
   }
   #about-me h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 40px;
     font-family: 'Rokkitt', serif;
     margin-top: 250px;
@@ -197,9 +281,15 @@
     display: none;
   }
   #about-me .info_about_me p {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -214,9 +304,15 @@
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 auto;
     margin-top: -190px;
     margin-left: -180px;
@@ -232,12 +328,22 @@
   #about-me button {
     border: none;
     border-radius: 25px;
+    background: -webkit-gradient(linear, left top, right top, from(#1DA1A9), to(#10D2FD));
     background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 auto;
     padding: 10px;
     width: 260px;
@@ -245,9 +351,15 @@
     font-size: 18px;
   }
   #about-me img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: right;
-    align-items: right;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    -webkit-box-align: right;
+        -ms-flex-align: right;
+            align-items: right;
     float: right;
     width: 90px;
     height: auto;
@@ -265,9 +377,15 @@
     overflow-x: hidden;
   }
   #about-me h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 40px;
     font-family: 'Rokkitt', serif;
     margin-top: 300px;
@@ -280,9 +398,15 @@
     display: none;
   }
   #about-me .info_about_me p {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -297,9 +421,15 @@
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 auto;
     margin-top: -190px;
     margin-left: -180px;
@@ -315,12 +445,22 @@
   #about-me button {
     border: none;
     border-radius: 25px;
+    background: -webkit-gradient(linear, left top, right top, from(#1DA1A9), to(#10D2FD));
     background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 auto;
     padding: 10px;
     width: 260px;
@@ -328,9 +468,15 @@
     font-size: 18px;
   }
   #about-me img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: right;
-    align-items: right;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    -webkit-box-align: right;
+        -ms-flex-align: right;
+            align-items: right;
     float: right;
     width: 90px;
     height: auto;
@@ -342,3 +488,4 @@
     -o-transform: rotate(310deg);
   }
 }
+/*# sourceMappingURL=aboutme.css.map */
