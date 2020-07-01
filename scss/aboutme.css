@@ -171,9 +171,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-size: 38px;
+    font-size: 40px;
     font-family: 'Rokkitt', serif;
-    margin-top: 160px;
+    margin-top: 190px;
     background: -webkit-linear-gradient(0.25turn, #146B7E, #2BD8FE);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -248,7 +248,7 @@
     margin: 0 auto;
     padding: 10px;
     width: 180px;
-    margin-top: 50px;
+    margin-top: 100px;
   }
   #about-me img {
     display: none;
@@ -269,124 +269,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-size: 40px;
-    font-family: 'Rokkitt', serif;
-    margin-top: 250px;
-    margin-bottom: 50px;
-    background: -webkit-linear-gradient(0.25turn, #146B7E, #2BD8FE);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  #about-me h1 img {
-    display: none;
-  }
-  #about-me .info_about_me p {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family: 'Rokkitt', serif;
-    color: #4b4b4b;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 35px;
-  }
-  #about-me .info_about_me .block_element {
-    background-color: #1DA1A9;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0 auto;
-    margin-top: -190px;
-    margin-left: -180px;
-    opacity: 0.8;
-    z-index: -1;
-    position: absolute;
-    transform: rotate(340deg);
-    -ms-transform: rotate(340deg);
-    -moz-transform: rotate(340deg);
-    -webkit-transform: rotate(340deg);
-    -o-transform: rotate(340deg);
-  }
-  #about-me button {
-    border: none;
-    border-radius: 25px;
-    background: -webkit-gradient(linear, left top, right top, from(#1DA1A9), to(#10D2FD));
-    background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
-    color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0 auto;
-    padding: 10px;
-    width: 260px;
-    margin-top: 50px;
-    font-size: 18px;
-  }
-  #about-me img {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
-    -webkit-box-align: right;
-        -ms-flex-align: right;
-            align-items: right;
-    float: right;
-    width: 90px;
-    height: auto;
-    margin-top: -90px;
-    transform: rotate(310deg);
-    -ms-transform: rotate(310deg);
-    -moz-transform: rotate(310deg);
-    -webkit-transform: rotate(310deg);
-    -o-transform: rotate(310deg);
-  }
-}
-
-@media only screen and (min-width: 1201px) and (max-width: 1366px) {
-  #about-me {
-    overflow-x: hidden;
-  }
-  #about-me h1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-size: 40px;
+    font-size: 44px;
     font-family: 'Rokkitt', serif;
     margin-top: 300px;
     margin-bottom: 50px;
@@ -464,7 +347,124 @@
     margin: 0 auto;
     padding: 10px;
     width: 260px;
-    margin-top: 50px;
+    margin-top: 100px;
+    font-size: 18px;
+  }
+  #about-me img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    -webkit-box-align: right;
+        -ms-flex-align: right;
+            align-items: right;
+    float: right;
+    width: 90px;
+    height: auto;
+    margin-top: -90px;
+    transform: rotate(310deg);
+    -ms-transform: rotate(310deg);
+    -moz-transform: rotate(310deg);
+    -webkit-transform: rotate(310deg);
+    -o-transform: rotate(310deg);
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+  #about-me {
+    overflow-x: hidden;
+  }
+  #about-me h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 44px;
+    font-family: 'Rokkitt', serif;
+    margin-top: 340px;
+    margin-bottom: 50px;
+    background: -webkit-linear-gradient(0.25turn, #146B7E, #2BD8FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #about-me h1 img {
+    display: none;
+  }
+  #about-me .info_about_me p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Rokkitt', serif;
+    color: #4b4b4b;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 35px;
+  }
+  #about-me .info_about_me .block_element {
+    background-color: #1DA1A9;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    margin-top: -190px;
+    margin-left: -180px;
+    opacity: 0.8;
+    z-index: -1;
+    position: absolute;
+    transform: rotate(340deg);
+    -ms-transform: rotate(340deg);
+    -moz-transform: rotate(340deg);
+    -webkit-transform: rotate(340deg);
+    -o-transform: rotate(340deg);
+  }
+  #about-me button {
+    border: none;
+    border-radius: 25px;
+    background: -webkit-gradient(linear, left top, right top, from(#1DA1A9), to(#10D2FD));
+    background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 260px;
+    margin-top: 100px;
     font-size: 18px;
   }
   #about-me img {
