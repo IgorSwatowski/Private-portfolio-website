@@ -129,6 +129,16 @@
     margin-top: 180px;
     font-size: 27px;
   }
+  .offer-top-text h2 .element {
+    position: absolute;
+    background-color: #1abaeb;
+    width: 135px;
+    height: 34px;
+    margin-top: -46px;
+    margin-left: 334px;
+    z-index: -1;
+    opacity: 0.8;
+  }
   .offer-top-text h2 b {
     background: -webkit-linear-gradient(0.25turn, #146B7E, #2BD8FE);
     -webkit-background-clip: text;
@@ -197,6 +207,16 @@
     font-family: 'Rokkitt', serif;
     margin-top: 200px;
     font-size: 27px;
+  }
+  .offer-top-text h2 .element {
+    position: absolute;
+    background-color: #1abaeb;
+    width: 135px;
+    height: 34px;
+    margin-top: -46px;
+    margin-left: 334px;
+    z-index: -1;
+    opacity: 0.8;
   }
   .offer-top-text h2 b {
     background: -webkit-linear-gradient(0.25turn, #146B7E, #2BD8FE);
@@ -267,6 +287,16 @@
     margin-top: 200px;
     font-size: 28px;
   }
+  .offer-top-text h2 .element {
+    position: absolute;
+    background-color: #1abaeb;
+    width: 115px;
+    height: 34px;
+    margin-top: -46px;
+    margin-left: 354px;
+    z-index: -1;
+    opacity: 0.7;
+  }
   .offer-top-text h2 b {
     background: -webkit-linear-gradient(0.25turn, #146B7E, #2BD8FE);
     -webkit-background-clip: text;
@@ -335,6 +365,16 @@
     font-family: 'Rokkitt', serif;
     margin-top: 200px;
     font-size: 28px;
+  }
+  .offer-top-text h2 .element {
+    position: absolute;
+    background-color: #1abaeb;
+    width: 135px;
+    height: 34px;
+    margin-top: -46px;
+    margin-left: 334px;
+    z-index: -1;
+    opacity: 0.8;
   }
   .offer-top-text h2 b {
     background: -webkit-linear-gradient(0.25turn, #146B7E, #2BD8FE);
