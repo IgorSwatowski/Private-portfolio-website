@@ -1,0 +1,37 @@
+#quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    background-color: rgb(66, 178, 212);
+    width: 100%;
+    
+    p{
+        text-align: center;
+        font-family: 'Rokkitt', serif;
+        color: #fff;
+        width: 100%;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding: 12px;
+
+        @media only screen and (min-width: 320px) and (max-width: 479px){
+            font-size: 20px;
+        }
+        @media only screen and (min-width: 480px) and (max-width: 799px) {
+            font-size: 20px;
+        }
+        @media only screen and (min-width: 800px) and (max-width: 1023px) {
+            font-size: 21px;
+        }
+        @media only screen and (min-width: 1023px) and (max-width: 1200px) {
+            font-size: 22px;
+        }
+        @media only screen and (min-width: 1201px) and (max-width: 1366px) {
+            font-size: 23px;
+        }
+        @media only screen and (min-width: 1367px) and (max-width: 1440px) {
+            font-size: 24px;
+        }
+    }
+}
