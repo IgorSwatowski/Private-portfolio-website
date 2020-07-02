@@ -10,28 +10,16 @@
     font-size: 32px;
     font-family: 'Rokkitt', serif;
     margin-top: 80px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   #banner-top-info .author h2 {
     color: #000000;
     font-family: 'Rokkitt', serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
     font-size: 26px;
   }
@@ -39,31 +27,18 @@
     color: #000000;
     font-family: 'Rokkitt', serif;
     font-size: 21px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
     text-align: center;
   }
   #banner-top-info .button-area {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   #banner-top-info .button-area a {
-    background: -webkit-gradient(linear, left top, right top, from(#1D90A9), to(#75E6FF));
     background: linear-gradient(0.25turn, #1D90A9, #75E6FF);
     border: none;
     padding: 12px;
@@ -99,28 +74,16 @@
     font-size: 32px;
     font-family: 'Rokkitt', serif;
     margin-top: 120px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   #banner-top-info .author h2 {
     color: #000000;
     font-family: 'Rokkitt', serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
     font-size: 26px;
   }
@@ -128,31 +91,18 @@
     color: #000000;
     font-family: 'Rokkitt', serif;
     font-size: 21px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
     text-align: center;
   }
   #banner-top-info .button-area {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   #banner-top-info .button-area a {
-    background: -webkit-gradient(linear, left top, right top, from(#1D90A9), to(#75E6FF));
     background: linear-gradient(0.25turn, #1D90A9, #75E6FF);
     border: none;
     padding: 12px;
@@ -182,22 +132,15 @@
     overflow-x: hidden;
   }
   #banner-top-info .image img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
-    -webkit-box-align: right;
-        -ms-flex-align: right;
-            align-items: right;
+    justify-content: right;
+    align-items: right;
     width: 600px;
     height: auto;
     float: right;
     margin-right: -240px;
     margin-top: -35px;
-    -webkit-transform: rotateX(730deg);
-            transform: rotateX(730deg);
+    transform: rotateX(730deg);
   }
   #banner-top-info .author {
     position: absolute;
@@ -219,29 +162,17 @@
     font-family: 'Rokkitt', serif;
     margin-top: 80px;
     margin-left: 33px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
   }
   #banner-top-info .author h2 {
     color: #000000;
     font-family: 'Rokkitt', serif;
     margin-left: 33px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
     font-size: 32px;
   }
   #banner-top-info .author p {
@@ -250,31 +181,18 @@
     font-family: 'Rokkitt', serif;
     font-size: 24px;
     float: left;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
   }
   #banner-top-info .button-area {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
     margin-left: 33px;
     margin-top: -90px;
   }
   #banner-top-info .button-area a {
-    background: -webkit-gradient(linear, left top, right top, from(#1D90A9), to(#75E6FF));
     background: linear-gradient(0.25turn, #1D90A9, #75E6FF);
     border: none;
     padding: 12px;
@@ -294,22 +212,15 @@
     overflow-x: hidden;
   }
   #banner-top-info .image img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
-    -webkit-box-align: right;
-        -ms-flex-align: right;
-            align-items: right;
+    justify-content: right;
+    align-items: right;
     width: 600px;
     height: auto;
     float: right;
     margin-right: -240px;
     margin-top: -35px;
-    -webkit-transform: rotateX(730deg);
-            transform: rotateX(730deg);
+    transform: rotateX(730deg);
   }
   #banner-top-info .author {
     position: absolute;
@@ -331,29 +242,17 @@
     font-family: 'Rokkitt', serif;
     margin-top: 80px;
     margin-left: 33px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
   }
   #banner-top-info .author h2 {
     color: #000000;
     font-family: 'Rokkitt', serif;
     margin-left: 33px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
     font-size: 32px;
   }
   #banner-top-info .author p {
@@ -362,31 +261,18 @@
     font-family: 'Rokkitt', serif;
     font-size: 24px;
     float: left;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
   }
   #banner-top-info .button-area {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
     margin-left: 30px;
     margin-top: -100px;
   }
   #banner-top-info .button-area a {
-    background: -webkit-gradient(linear, left top, right top, from(#1D90A9), to(#75E6FF));
     background: linear-gradient(0.25turn, #1D90A9, #75E6FF);
     border: none;
     padding: 12px;
@@ -406,22 +292,15 @@
     overflow-x: hidden;
   }
   #banner-top-info .image img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
-    -webkit-box-align: right;
-        -ms-flex-align: right;
-            align-items: right;
+    justify-content: right;
+    align-items: right;
     width: 900px;
     height: 650px;
     float: right;
     margin-right: -100px;
     margin-top: -20px;
-    -webkit-transform: rotateX(730deg);
-            transform: rotateX(730deg);
+    transform: rotateX(730deg);
   }
   #banner-top-info .author {
     position: absolute;
@@ -443,29 +322,17 @@
     font-family: 'Rokkitt', serif;
     margin-top: 80px;
     margin-left: 33px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
   }
   #banner-top-info .author h2 {
     color: #000000;
     font-family: 'Rokkitt', serif;
     margin-left: 33px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
     font-size: 26px;
   }
   #banner-top-info .author p {
@@ -474,31 +341,18 @@
     font-family: 'Rokkitt', serif;
     font-size: 22px;
     float: left;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
   }
   #banner-top-info .button-area {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
     margin-left: 30px;
     margin-top: -270px;
   }
   #banner-top-info .button-area a {
-    background: -webkit-gradient(linear, left top, right top, from(#1D90A9), to(#75E6FF));
     background: linear-gradient(0.25turn, #1D90A9, #75E6FF);
     border: none;
     padding: 12px;
@@ -518,22 +372,15 @@
     overflow-x: hidden;
   }
   #banner-top-info .image img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
-    -webkit-box-align: right;
-        -ms-flex-align: right;
-            align-items: right;
+    justify-content: right;
+    align-items: right;
     width: 900px;
     height: auto;
     float: right;
     margin-right: -120px;
     margin-top: -35px;
-    -webkit-transform: rotateX(730deg);
-            transform: rotateX(730deg);
+    transform: rotateX(730deg);
   }
   #banner-top-info .author {
     position: absolute;
@@ -555,29 +402,17 @@
     font-family: 'Rokkitt', serif;
     margin-top: 80px;
     margin-left: 53px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
   }
   #banner-top-info .author h2 {
     color: #000000;
     font-family: 'Rokkitt', serif;
     margin-left: 53px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
     font-size: 28px;
     margin-top: 40px;
   }
@@ -587,31 +422,18 @@
     font-family: 'Rokkitt', serif;
     font-size: 20px;
     float: left;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
   }
   #banner-top-info .button-area {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
+    justify-content: left;
+    align-items: left;
     margin-left: 53px;
     margin-top: -350px;
   }
   #banner-top-info .button-area a {
-    background: -webkit-gradient(linear, left top, right top, from(#1D90A9), to(#75E6FF));
     background: linear-gradient(0.25turn, #1D90A9, #75E6FF);
     border: none;
     padding: 12px;
@@ -625,4 +447,3 @@
     display: none;
   }
 }
-/*# sourceMappingURL=bannerTop.css.map */
