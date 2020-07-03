@@ -50,11 +50,11 @@
   </button>
   <div class="navigation">
     <ul class="navigation__list">
-      <li class="navigation__item"><a href="">Strona Główna</a></li>
-      <li class="navigation__item"><a href="">Kim jestem?</a></li>
-      <li class="navigation__item"><a href="">Portfolio</a></li>
-      <li class="navigation__item"><a href="">Oferta</a></li>
-      <li class="navigation__item"><a href="">Kontakt</a></li>
+      <li class="navigation__item"><a href="index.html">Strona Główna</a></li>
+      <li class="navigation__item"><a href="#about-me">Kim jestem?</a></li>
+      <li class="navigation__item"><a href="#portfolio">Portfolio</a></li>
+      <li class="navigation__item"><a href="#offer">Oferta</a></li>
+      <li class="navigation__item"><a href="#contact">Kontakt</a></li>
     </ul>
   </div>
 </header>
@@ -157,6 +157,25 @@
     <img src="img/footer.png"/>
   </div>
 </div>
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', function (e) {
+        e.preventDefault();
+        var href = this.getAttribute("href");
+        var elem = document.querySelector(href)||document.querySelector("a[name="+href.substring(1, href.length)+"]");
+        window.scroll({
+            top: elem.offsetTop, 
+            left: 0, 
+            behavior: 'smooth',
+        });
+       setTimeout(function(){
+            window.location.hash = this.hash;
+        }, 2000); 
+    });
+});
+</script>
+
 
 <script src="vendor/wow/wow.min.js"></script>
               <script>
