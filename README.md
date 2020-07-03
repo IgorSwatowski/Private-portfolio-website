@@ -1,7 +1,12 @@
 # Private-portfolio-website
 Demo: https://infallible-curran-64c0e8.netlify.app/
 
-# Technologies used
+# Technologies and tools used
+- HTML5,
+- CSS3 & SCSS,
+- JavaScript,
+- Webpack,
+- WOW.js library
 
-Portfolio was created in HTML5, CSS3, Javascript. The site was previously designed in Figma and then implemented.This is my newer and better version of the portfolio then older version.
-
+# Description about project
+The site was previously designed in Figma and then implemented. This is my newer and better version of the portfolio then older version.
