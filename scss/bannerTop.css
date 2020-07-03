@@ -38,15 +38,21 @@
     justify-content: center;
     align-items: center;
   }
-  #banner-top-info .button-area a {
+  #banner-top-info .button-area button {
     background: linear-gradient(0.25turn, #1D90A9, #75E6FF);
     border: none;
     padding: 12px;
+    margin-top: 10px;
+  }
+  #banner-top-info .button-area button:hover, #banner-top-info .button-area button:focus {
+    box-shadow: inset 5em 2em 5em 2em #1D90A9;
+    transition: .2s .1s ease-in-out;
+  }
+  #banner-top-info .button-area button a {
     color: #fff;
     font-family: 'Rokkitt', serif;
     font-size: 17px;
     text-decoration: none;
-    margin-top: 10px;
   }
   #banner-top-info .image_abstract_item img {
     position: absolute;
@@ -102,15 +108,21 @@
     justify-content: center;
     align-items: center;
   }
-  #banner-top-info .button-area a {
+  #banner-top-info .button-area button {
     background: linear-gradient(0.25turn, #1D90A9, #75E6FF);
     border: none;
     padding: 12px;
+    margin-top: 10px;
+  }
+  #banner-top-info .button-area button:hover, #banner-top-info .button-area button:focus {
+    box-shadow: inset 5em 2em 5em 2em #1D90A9;
+    transition: .2s .1s ease-in-out;
+  }
+  #banner-top-info .button-area button a {
     color: #fff;
     font-family: 'Rokkitt', serif;
     font-size: 17px;
     text-decoration: none;
-    margin-top: 10px;
   }
   #banner-top-info .image_abstract_item img {
     position: absolute;
@@ -192,15 +204,21 @@
     margin-left: 33px;
     margin-top: -90px;
   }
-  #banner-top-info .button-area a {
+  #banner-top-info .button-area button {
     background: linear-gradient(0.25turn, #1D90A9, #75E6FF);
     border: none;
     padding: 12px;
+    margin-top: 10px;
+  }
+  #banner-top-info .button-area button:hover, #banner-top-info .button-area button:focus {
+    box-shadow: inset 5em 2em 5em 2em #1D90A9;
+    transition: .2s .1s ease-in-out;
+  }
+  #banner-top-info .button-area button a {
     color: #fff;
     font-family: 'Rokkitt', serif;
     font-size: 17px;
     text-decoration: none;
-    margin-top: 10px;
   }
   #banner-top-info .image_abstract_item img {
     display: none;
@@ -272,15 +290,21 @@
     margin-left: 30px;
     margin-top: -100px;
   }
-  #banner-top-info .button-area a {
+  #banner-top-info .button-area button {
     background: linear-gradient(0.25turn, #1D90A9, #75E6FF);
     border: none;
     padding: 12px;
+    margin-top: 10px;
+  }
+  #banner-top-info .button-area button:hover, #banner-top-info .button-area button:focus {
+    box-shadow: inset 5em 2em 5em 2em #1D90A9;
+    transition: .2s .1s ease-in-out;
+  }
+  #banner-top-info .button-area button a {
     color: #fff;
     font-family: 'Rokkitt', serif;
     font-size: 17px;
     text-decoration: none;
-    margin-top: 10px;
   }
   #banner-top-info .image_abstract_item img {
     display: none;
@@ -352,15 +376,21 @@
     margin-left: 30px;
     margin-top: -270px;
   }
-  #banner-top-info .button-area a {
+  #banner-top-info .button-area button {
     background: linear-gradient(0.25turn, #1D90A9, #75E6FF);
     border: none;
     padding: 12px;
+    margin-top: 10px;
+  }
+  #banner-top-info .button-area button:hover, #banner-top-info .button-area button:focus {
+    box-shadow: inset 5em 2em 5em 2em #1D90A9;
+    transition: .2s .1s ease-in-out;
+  }
+  #banner-top-info .button-area button a {
     color: #fff;
     font-family: 'Rokkitt', serif;
     font-size: 17px;
     text-decoration: none;
-    margin-top: 10px;
   }
   #banner-top-info .image_abstract_item img {
     display: none;
@@ -433,15 +463,21 @@
     margin-left: 53px;
     margin-top: -350px;
   }
-  #banner-top-info .button-area a {
+  #banner-top-info .button-area button {
     background: linear-gradient(0.25turn, #1D90A9, #75E6FF);
     border: none;
     padding: 12px;
+    margin-top: 10px;
+  }
+  #banner-top-info .button-area button:hover, #banner-top-info .button-area button:focus {
+    box-shadow: inset 5em 2em 5em 2em #1D90A9;
+    transition: .2s .1s ease-in-out;
+  }
+  #banner-top-info .button-area button a {
     color: #fff;
     font-family: 'Rokkitt', serif;
     font-size: 17px;
     text-decoration: none;
-    margin-top: 10px;
   }
   #banner-top-info .image_abstract_item img {
     display: none;
