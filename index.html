@@ -25,6 +25,11 @@
   <link rel="stylesheet" href="scss/offer.css"/>
   <link rel="stylesheet" href="scss/quote.css"/>
   <link rel="stylesheet" href="scss/contact.css"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <link rel="stylesheet" href="vendor/animate//animate.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- END SCRIPTS -->
 
@@ -35,7 +40,7 @@
 <body>
 
 <header>
-  <div class="logo">
+  <div class="logo wow fadeInDown" data-wow-duration="2s">
     <img src="img/logo.png"/>
   </div>
   <button class="hamburger">
@@ -55,17 +60,17 @@
 </header>
 
 <div id="banner-top-info">
-   <div class="image">
+   <div class="image wow fadeInRight">
      <img src="img/particles_top.png"/>
    </div>
-   <div class="author">
+   <div class="author wow fadeInDown">
     <h1>Igor Swatowski</h1>
     <div class="element"></div>
     <h2>Nowoczesna strona?</h2>
     <p>Istnieją 3 odpowiedzi na projekt -<br> tak, nie i WOW! 
       Wow jest <br>moim celem.</p>
    </div>
-   <div class="button-area">
+   <div class="button-area wow fadeInUp" data-wow-duration="1s">
     <a href="#">Sprawdź Ofertę</a>
   </div>
    <div class="image_abstract_item">
@@ -75,28 +80,28 @@
 </div>
 
 <div id="about-me">
-  <h1>Kim jestem?<img src="img/mlotek.png"/></h1>
-  <div class="info_about_me">
+  <h1 class="wow zoomIn">Kim jestem?<img src="img/mlotek.png"/></h1>
+  <div class="info_about_me wow fadeInDown">
      <p>Na imię mi Igor i zapewne szukasz swojego idealnego rozwiązania do stworzenia wizerunku w sieci. 
        Trafiłeś do właściwej osoby, programuję od kilku lat a każda witryna jest tworzona na potrzeby indywidualne. Staram się poznać drugą osobę, dowiedzieć się czego tak właściwie oczekuje ode mnie. 
        Następnie przystępuje do pracy a TY pod koniec robisz WOW.    
      </p>
-     <div class="block_element"></div>  
+     <div class="block_element wow fadeInLeft"></div>  
   </div>
-  <button>Tak, poproszę nową stronę </button>
+  <button class="wow slideInLeft">Tak, poproszę nową stronę </button>
   <img src="img/abstractitem.png" width="50" heigth="50">
 </div>
   
 <div id="portfolio">
-     <div class="portfolio-text">
+     <div class="portfolio-text wow fadeInDown">
        <h2>Sprawdź moje realizacje. Dowiesz się, dlaczego <b>wszyscy</b> moi klienci są zadowoleni.</h2>
        <img src="img/grade.png"/>
      </div>
-     <div class="next_and_back_slide_show">
+     <div class="next_and_back_slide_show wow fadeInUp">
       <button class="left-arrow" onclick="plusDivs(-1)"><img src="img/back.svg"></button>
       <button class="right-arrow" onclick="plusDivs(+1)"><img src="img/next.svg"></button>
      </div>
-     <div class="portfolio-item">
+     <div class="portfolio-item wow fadeInUp">
        <img src="img/monitor.png"/>
      </div>
      <div class="portfolio-item">
@@ -105,36 +110,36 @@
     <div class="portfolio-item">
       <img src="img/monitor3.png"/>
     </div>
-    <div class="getproject">
+    <div class="getproject wow fadeInUp">
       <button>Podoba mi się, poproszę i ja </button>
     </div>
 </div>
 
-<div class="offer-top-text">
+<div class="offer-top-text wow fadeInDown">
   <h2>Dlaczego ja i co mogę <b>Tobie</b> zaoferować?<div class="element"></div></h2>
 </div>
 <div id="offer">
-  <div class="box-item">
+  <div class="box-item wow fadeInLeft">
     <img src="img/firstIcon.png">
     <p>Najlepsze rozwiązanie dla Ciebie lub dla Twojej firmy. Przedstaw mi swój pomysł lub po prostu zdaj się na mnie.</p>
   </div>
-  <div class="box-item">
+  <div class="box-item wow fadeInUp">
     <img src="img/SecondIcon.png">
     <p>Najlepsze rozwiązanie dla Ciebie lub dla Twojej firmy. Przedstaw mi swój pomysł lub po prostu zdaj się na mnie.</p>
   </div>
-  <div class="box-item">
+  <div class="box-item wow fadeInRight">
     <img src="img/ThirdIcon.png">
     <p>Najlepsze rozwiązanie dla Ciebie lub dla Twojej firmy. Przedstaw mi swój pomysł lub po prostu zdaj się na mnie.</p>
   </div>
 </div>
   
 <div id="quote">
-  <p>„Uzyskanie wysokiej jakości strony internetowej nie jest wydatkiem, ale inwestycją” - Christopher Dayagdag</p>
+  <p class="wow fadeInUp">„Uzyskanie wysokiej jakości strony internetowej nie jest wydatkiem, ale inwestycją” - Christopher Dayagdag</p>
 </div>
 
 <div id="contact">
-  <h2>Skontaktuj się ze mną a omówimy <b>projekt.</b></h2>
-  <div class="box-item-contact">
+  <h2 class="wow fadeInDown">Skontaktuj się ze mną a omówimy <b>projekt.</b></h2>
+  <div class="box-item-contact wow fadeInUp">
     <img src="img/email.png">
     <p>admin@convertcode.pl</p>
     <img src="img/ig.png">
@@ -153,7 +158,10 @@
   </div>
 </div>
 
-
+<script src="vendor/wow/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 <script src="js/hamburger-menu.js"></script>
 <script src="js/slide-show.js"></script>
 </body>
