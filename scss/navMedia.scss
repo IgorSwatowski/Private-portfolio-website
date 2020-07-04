@@ -3,12 +3,26 @@
     header{
         .logo{
             img{
+                position: absolute;
+                left: calc(100% - 150px);
                 float: right;
                 width: 135px;
                 height: 30px;
-                margin-top: 20px;
+                margin-top: -60px;
                 margin-right: 10px;
             }
+        }
+        .hamburger{
+            position: fixed;
+            padding: 10px;
+            display: inline-block;
+            cursor: pointer;
+            background-color: transparent;
+            border: 0;
+            margin: 0;
+            margin-left: 15px;
+            margin-top: -70px;
+            z-index: 999;
         }
     }
  }
@@ -17,48 +31,118 @@
     header{
         .logo{
             img{
+              position: absolute;
+              left: calc(100% - 150px);
               float: right;
               width: 135px;
               height: 30px;
-              margin-top: 20px;
+              margin-top: -90px;
               margin-right: 10px;
             }
         }
+        .hamburger{
+          position: fixed;
+          padding: 10px;
+          display: inline-block;
+          cursor: pointer;
+          background-color: transparent;
+          border: 0;
+          margin: 0;
+          margin-left: 15px;
+          margin-top: -100px;
+          z-index: 999;
+      }
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1599px) {
+@media only screen and (min-width: 768px) and (max-width: 800px) {
     header{
-        .logo{
-            img{
-                float: right;
-                width: 210px;
-                height: 50px;
-                margin-top: 5px;
-                margin-right: 30px;
-            }
+      .logo{
+        img{
+          position: absolute;
+          left: calc(100% - 150px);
+          float: right;
+          width: 135px;
+          height: 30px;
+          margin-top: -90px;
+          margin-right: 10px;
         }
+      }
+      .hamburger{
+        position: fixed;
+        padding: 10px;
+        display: inline-block;
+        cursor: pointer;
+        background-color: transparent;
+        border: 0;
+        margin: 0;
+        margin-left: 15px;
+        margin-top: -100px;
+        z-index: 999;
+    }
     }
 }
 
-
-*, *::before, *::after {
-  box-sizing: inherit;
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+  header{
+    .logo{
+      img{
+        position: absolute;
+        left: calc(100% - 150px);
+        float: right;
+        width: 135px;
+        height: 30px;
+        margin-top: 20px;
+        margin-right: 10px;
+      }
+    }
+    .hamburger{
+      position: fixed;
+      padding: 10px;
+      display: inline-block;
+      cursor: pointer;
+      background-color: transparent;
+      border: 0;
+      margin: 0;
+      margin-left: 15px;
+      margin-top: 10px;
+      z-index: 999;
+  }
+  }
 }
+
+@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+  header{
+    .logo{
+      img{
+        position: absolute;
+        left: calc(100% - 150px);
+        float: right;
+        width: 135px;
+        height: 30px;
+        margin-top: 20px;
+        margin-right: 10px;
+      }
+    }
+    .hamburger{
+      position: fixed;
+      padding: 10px;
+      display: inline-block;
+      cursor: pointer;
+      background-color: transparent;
+      border: 0;
+      margin: 0;
+      margin-left: 15px;
+      margin-top: 10px;
+      z-index: 999;
+  }
+  }
+}
+
+
 
 $dark: #171717;
 $light: #FFFFFF;
-
-.hamburger {
-  padding: 10px;
-  display: inline-block;
-  cursor: pointer;
-  background-color: transparent;
-  border: 0;
-  margin: 0;
-  margin-top: 10px;
-  margin-left: 20px;
-}
 
 .hamburger, .navigation {
   transition: transform .3s .1s ease-in-out;
@@ -124,7 +208,7 @@ $light: #FFFFFF;
   height: 100vh;
   width: 250px;
   background-color: #171717;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   transform: translateX(-250px);
