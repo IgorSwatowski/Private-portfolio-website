@@ -1,19 +1,24 @@
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     #portfolio{
         .getproject{
-            button{
+            button {
                 border: none;
                 border-radius: 25px;
                 background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
-                color: white;
                 display: flex;
                 justify-content: center;
                 flex-direction: column; 
                 align-items: center;
                 margin: 0 auto;
                 padding: 10px;
-                width: 200px;
-                margin-top: 50px;
+                width: 260px;
+                margin-top: 70px;
+                font-size: 18px;
+                
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
             }
         }
         .next_and_back_slide_show{
@@ -82,19 +87,24 @@
 @media only screen and (min-width: 480px) and (max-width: 799px) {
     #portfolio{
         .getproject{
-            button{
+            button {
                 border: none;
                 border-radius: 25px;
                 background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
-                color: white;
                 display: flex;
                 justify-content: center;
                 flex-direction: column; 
                 align-items: center;
                 margin: 0 auto;
                 padding: 10px;
-                width: 200px;
-                margin-top: 50px;
+                width: 260px;
+                margin-top: 70px;
+                font-size: 18px;
+                
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
             }
         }
         .next_and_back_slide_show{
@@ -166,19 +176,24 @@
 @media only screen and (min-width: 800px) and (max-width: 1023px) {
     #portfolio{
         .getproject{
-            button{
+            button {
                 border: none;
                 border-radius: 25px;
                 background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
-                color: white;
                 display: flex;
                 justify-content: center;
                 flex-direction: column; 
                 align-items: center;
                 margin: 0 auto;
                 padding: 10px;
-                width: 200px;
-                margin-top: 50px;
+                width: 260px;
+                margin-top: 70px;
+                font-size: 18px;
+                
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
             }
         }
         .next_and_back_slide_show{
@@ -335,11 +350,10 @@
 @media only screen and (min-width: 1201px) and (max-width: 1366px) {
     #portfolio{
         .getproject{
-            button{
+            button {
                 border: none;
                 border-radius: 25px;
                 background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
-                color: white;
                 display: flex;
                 justify-content: center;
                 flex-direction: column; 
@@ -349,6 +363,11 @@
                 width: 260px;
                 margin-top: 70px;
                 font-size: 18px;
+                
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
             }
         }
         .next_and_back_slide_show{  
@@ -420,11 +439,10 @@
 @media only screen and (min-width: 1367px) and (max-width: 1440px) {
     #portfolio{
         .getproject{
-            button{
+            button {
                 border: none;
                 border-radius: 25px;
                 background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
-                color: white;
                 display: flex;
                 justify-content: center;
                 flex-direction: column; 
@@ -432,7 +450,13 @@
                 margin: 0 auto;
                 padding: 10px;
                 width: 260px;
-                margin-top: 60px;
+                margin-top: 70px;
+                font-size: 18px;
+                
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
             }
         }
         .next_and_back_slide_show{
