@@ -118,6 +118,145 @@
   }
 }
 
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+  header .logo img {
+    position: absolute;
+    left: calc(100% - 5px);
+    float: right;
+    width: 135px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  header .hamburger {
+    position: fixed;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    z-index: 999;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1599px) {
+  header .logo img {
+    position: absolute;
+    left: calc(100% - 200px);
+    float: right;
+    width: 185px;
+    height: 40px;
+    margin-top: 20px;
+  }
+  header .hamburger {
+    position: fixed;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    z-index: 999;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+  header .logo img {
+    position: absolute;
+    left: calc(100% - 200px);
+    float: right;
+    width: 185px;
+    height: 40px;
+    margin-top: 20px;
+  }
+  header .hamburger {
+    position: fixed;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    z-index: 999;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+  header .logo img {
+    position: absolute;
+    left: calc(100% - 200px);
+    float: right;
+    width: 185px;
+    height: 40px;
+    margin-top: 20px;
+  }
+  header .hamburger {
+    position: fixed;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    z-index: 999;
+  }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1919px) {
+  header .logo img {
+    position: absolute;
+    left: calc(100% - 200px);
+    float: right;
+    width: 185px;
+    height: 40px;
+    margin-top: 20px;
+  }
+  header .hamburger {
+    position: fixed;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    z-index: 999;
+  }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2559px) {
+  header .logo img {
+    position: absolute;
+    left: calc(100% - 200px);
+    float: right;
+    width: 185px;
+    height: 40px;
+    margin-top: 20px;
+  }
+  header .hamburger {
+    position: fixed;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    z-index: 999;
+  }
+}
+
 .hamburger, .navigation {
   -webkit-transition: -webkit-transform .3s .1s ease-in-out;
   transition: -webkit-transform .3s .1s ease-in-out;
