@@ -16,6 +16,10 @@
     color: white;
     text-decoration: none;
   }
+  #portfolio .getproject button:hover {
+    transform: translate(-50%, -50%) scale(0.9);
+    animation: pulse 1s linear infinite;
+  }
   #portfolio .next_and_back_slide_show button.left-arrow {
     border: none;
     background: transparent;
@@ -85,6 +89,10 @@
   #portfolio .getproject button a {
     color: white;
     text-decoration: none;
+  }
+  #portfolio .getproject button:hover {
+    transform: translate(-50%, -50%) scale(0.9);
+    animation: pulse 1s linear infinite;
   }
   #portfolio .next_and_back_slide_show button.left-arrow {
     border: none;
@@ -159,6 +167,10 @@
     text-decoration: none;
     color: #fff;
   }
+  #portfolio .getproject button:hover {
+    transform: translate(-50%, -50%) scale(0.9);
+    animation: pulse 1s linear infinite;
+  }
   #portfolio .next_and_back_slide_show button.left-arrow {
     border: none;
     background: transparent;
@@ -227,6 +239,10 @@
     padding: 10px;
     width: 200px;
     margin-top: 20px;
+  }
+  #portfolio .getproject button:hover {
+    transform: translate(-50%, -50%) scale(0.9);
+    animation: pulse 1s linear infinite;
   }
   #portfolio .next_and_back_slide_show button.left-arrow {
     border: none;
@@ -301,6 +317,10 @@
     text-decoration: none;
     color: #fff;
   }
+  #portfolio .getproject button:hover {
+    transform: translate(-50%, -50%) scale(0.9);
+    animation: pulse 1s linear infinite;
+  }
   #portfolio .next_and_back_slide_show button.left-arrow {
     border: none;
     background: transparent;
@@ -373,6 +393,10 @@
   #portfolio .getproject button a {
     text-decoration: none;
     color: #fff;
+  }
+  #portfolio .getproject button:hover {
+    transform: translate(-50%, -50%) scale(0.9);
+    animation: pulse 1s linear infinite;
   }
   #portfolio .next_and_back_slide_show button.left-arrow {
     border: none;
