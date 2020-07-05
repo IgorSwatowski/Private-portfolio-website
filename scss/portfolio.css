@@ -2,30 +2,19 @@
   #portfolio .getproject button {
     border: none;
     border-radius: 25px;
-    background: -webkit-gradient(linear, left top, right top, from(#1DA1A9), to(#10D2FD));
     background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
     padding: 10px;
-    width: 260px;
-    margin-top: 70px;
-    font-size: 18px;
+    width: 190px;
+    margin-top: 50px;
   }
   #portfolio .getproject button a {
+    color: white;
     text-decoration: none;
-    color: #fff;
   }
   #portfolio .next_and_back_slide_show button.left-arrow {
     border: none;
@@ -48,15 +37,9 @@
     height: 38px;
   }
   #portfolio .portfolio-item img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 200px;
     height: 150px;
@@ -75,15 +58,9 @@
     -webkit-text-fill-color: transparent;
   }
   #portfolio .portfolio-text img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 172px;
     height: auto;
@@ -95,30 +72,19 @@
   #portfolio .getproject button {
     border: none;
     border-radius: 25px;
-    background: -webkit-gradient(linear, left top, right top, from(#1DA1A9), to(#10D2FD));
     background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
     padding: 10px;
-    width: 260px;
-    margin-top: 70px;
-    font-size: 18px;
+    width: 190px;
+    margin-top: 50px;
   }
   #portfolio .getproject button a {
+    color: white;
     text-decoration: none;
-    color: #fff;
   }
   #portfolio .next_and_back_slide_show button.left-arrow {
     border: none;
@@ -143,15 +109,9 @@
     height: 44px;
   }
   #portfolio .portfolio-item img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 300px;
     height: 210px;
@@ -170,15 +130,9 @@
     -webkit-text-fill-color: transparent;
   }
   #portfolio .portfolio-text img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 172px;
     height: auto;
@@ -190,21 +144,11 @@
   #portfolio .getproject button {
     border: none;
     border-radius: 25px;
-    background: -webkit-gradient(linear, left top, right top, from(#1DA1A9), to(#10D2FD));
     background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
     padding: 10px;
     width: 260px;
@@ -238,15 +182,9 @@
     height: 44px;
   }
   #portfolio .portfolio-item img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 300px;
     height: 210px;
@@ -265,15 +203,9 @@
     -webkit-text-fill-color: transparent;
   }
   #portfolio .portfolio-text img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 172px;
     height: auto;
@@ -285,22 +217,12 @@
   #portfolio .getproject button {
     border: none;
     border-radius: 25px;
-    background: -webkit-gradient(linear, left top, right top, from(#1DA1A9), to(#10D2FD));
     background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
     color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
     padding: 10px;
     width: 200px;
@@ -329,15 +251,9 @@
     height: 44px;
   }
   #portfolio .portfolio-item img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 350px;
     height: 240px;
@@ -356,15 +272,9 @@
     -webkit-text-fill-color: transparent;
   }
   #portfolio .portfolio-text img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 172px;
     height: auto;
@@ -376,21 +286,11 @@
   #portfolio .getproject button {
     border: none;
     border-radius: 25px;
-    background: -webkit-gradient(linear, left top, right top, from(#1DA1A9), to(#10D2FD));
     background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
     padding: 10px;
     width: 260px;
@@ -424,15 +324,9 @@
     height: 44px;
   }
   #portfolio .portfolio-item img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 350px;
     height: 240px;
@@ -451,15 +345,9 @@
     -webkit-text-fill-color: transparent;
   }
   #portfolio .portfolio-text img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 172px;
     height: auto;
@@ -471,21 +359,11 @@
   #portfolio .getproject button {
     border: none;
     border-radius: 25px;
-    background: -webkit-gradient(linear, left top, right top, from(#1DA1A9), to(#10D2FD));
     background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
     padding: 10px;
     width: 260px;
@@ -519,15 +397,9 @@
     height: 44px;
   }
   #portfolio .portfolio-item img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 350px;
     height: 240px;
@@ -546,19 +418,12 @@
     -webkit-text-fill-color: transparent;
   }
   #portfolio .portfolio-text img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 172px;
     height: auto;
     margin-top: -10px;
   }
 }
-/*# sourceMappingURL=portfolio.css.map */
