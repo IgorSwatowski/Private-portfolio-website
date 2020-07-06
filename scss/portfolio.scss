@@ -197,7 +197,7 @@
                 margin: 0 auto;
                 padding: 10px;
                 width: 260px;
-                margin-top: 30px;
+                margin-top: 70px;
                 font-size: 18px;
                 
                 a{
@@ -216,7 +216,7 @@
                 background: transparent;
                 float: left;
                 margin-top: 200px;
-                margin-left: 10%;
+                margin-left: 15%;
                 
                 img{
                     width: 44px;
@@ -228,7 +228,7 @@
                 background: transparent;
                 float: right;
                 margin-top: 200px;
-                margin-right: 10%;
+                margin-right: 15%;
                 
                 img{
                     width: 44px;
@@ -282,26 +282,29 @@
 @media only screen and (min-width: 1023px) and (max-width: 1200px) {
     #portfolio{
         .getproject{
-            button{
+            button {
                 border: none;
                 border-radius: 25px;
                 background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
-                color: white;
                 display: flex;
                 justify-content: center;
                 flex-direction: column; 
                 align-items: center;
                 margin: 0 auto;
                 padding: 10px;
-                width: 200px;
-                margin-top: 20px;
+                width: 260px;
+                margin-top: 70px;
+                font-size: 18px;
                 
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
                 &:hover{
                     transform: translate(-50%, -50%) scale(.9);
                     animation: pulse 1s linear infinite;
                 }
             }
-            
         }
         .next_and_back_slide_show{
             button.left-arrow{
@@ -309,7 +312,7 @@
                 background: transparent;
                 float: left;
                 margin-top: 200px;
-                margin-left: 10%;
+                margin-left: 20%;
                 
                 img{
                     width: 44px;
@@ -321,7 +324,7 @@
                 background: transparent;
                 float: right;
                 margin-top: 200px;
-                margin-right: 10%;
+                margin-right: 20%;
                 
                 img{
                     width: 44px;
@@ -404,7 +407,7 @@
                 background: transparent;
                 float: left;
                 margin-top: 200px;
-                margin-left: 10%;
+                margin-left: 20%;
                 
                 img{
                     width: 44px;
@@ -416,7 +419,7 @@
                 background: transparent;
                 float: right;
                 margin-top: 200px;
-                margin-right: 10%;
+                margin-right: 20%;
                 
                 img{
                     width: 44px;
@@ -499,7 +502,7 @@
                 background: transparent;
                 float: left;
                 margin-top: 200px;
-                margin-left: 10%;
+                margin-left: 25%;
                 
                 img{
                     width: 44px;
@@ -511,7 +514,7 @@
                 background: transparent;
                 float: right;
                 margin-top: 200px;
-                margin-right: 10%;
+                margin-right: 25%;
                 
                 img{
                     width: 44px;
@@ -529,6 +532,378 @@
                     margin: 0 auto;
                     width: 320px;
                     height: 210px;
+                    max-width: 100%;
+                    margin-top: 120px;
+                }
+            }
+        }
+        .portfolio-text{
+            h2{
+                text-align: center;
+                font-family: 'Rokkitt', serif;
+                margin-top: 200px;
+                font-size: 27px;
+                
+                b{
+                    background: -webkit-linear-gradient(0.25turn,#146B7E,#2BD8FE);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+            img{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                width: 172px;
+                height: auto;
+                margin-top: -10px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1599px){
+    #portfolio{
+        .getproject{
+            button {
+                border: none;
+                border-radius: 25px;
+                background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
+                display: flex;
+                justify-content: center;
+                flex-direction: column; 
+                align-items: center;
+                margin: 0 auto;
+                padding: 10px;
+                width: 260px;
+                margin-top: 70px;
+                font-size: 18px;
+                
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+                &:hover{
+                    transform: translate(-50%, -50%) scale(.9);
+                    animation: pulse 1s linear infinite;
+                }
+            }
+        }
+        .next_and_back_slide_show{
+            button.left-arrow{
+                border: none;
+                background: transparent;
+                float: left;
+                margin-top: 200px;
+                margin-left: 25%;
+                
+                img{
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+            button.right-arrow{
+                border: none;
+                background: transparent;
+                float: right;
+                margin-top: 200px;
+                margin-right: 25%;
+                
+                img{
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+        }
+        .portfolio-item{
+            
+            a{
+                img{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 auto;
+                    width: 340px;
+                    height: 220px;
+                    max-width: 100%;
+                    margin-top: 120px;
+                }
+            }
+        }
+        .portfolio-text{
+            h2{
+                text-align: center;
+                font-family: 'Rokkitt', serif;
+                margin-top: 200px;
+                font-size: 27px;
+                
+                b{
+                    background: -webkit-linear-gradient(0.25turn,#146B7E,#2BD8FE);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+            img{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                width: 172px;
+                height: auto;
+                margin-top: -10px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1600px) and (max-width: 1679px){
+    #portfolio{
+        .getproject{
+            button {
+                border: none;
+                border-radius: 25px;
+                background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
+                display: flex;
+                justify-content: center;
+                flex-direction: column; 
+                align-items: center;
+                margin: 0 auto;
+                padding: 10px;
+                width: 260px;
+                margin-top: 70px;
+                font-size: 18px;
+                
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+                &:hover{
+                    transform: translate(-50%, -50%) scale(.9);
+                    animation: pulse 1s linear infinite;
+                }
+            }
+        }
+        .next_and_back_slide_show{
+            button.left-arrow{
+                border: none;
+                background: transparent;
+                float: left;
+                margin-top: 200px;
+                margin-left: 27%;
+                
+                img{
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+            button.right-arrow{
+                border: none;
+                background: transparent;
+                float: right;
+                margin-top: 200px;
+                margin-right: 27%;
+                
+                img{
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+        }
+        .portfolio-item{
+            
+            a{
+                img{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 auto;
+                    width: 340px;
+                    height: 220px;
+                    max-width: 100%;
+                    margin-top: 120px;
+                }
+            }
+        }
+        .portfolio-text{
+            h2{
+                text-align: center;
+                font-family: 'Rokkitt', serif;
+                margin-top: 200px;
+                font-size: 27px;
+                
+                b{
+                    background: -webkit-linear-gradient(0.25turn,#146B7E,#2BD8FE);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+            img{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                width: 172px;
+                height: auto;
+                margin-top: -10px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1680px) and (max-width: 1919px){
+    #portfolio{
+        .getproject{
+            button {
+                border: none;
+                border-radius: 25px;
+                background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
+                display: flex;
+                justify-content: center;
+                flex-direction: column; 
+                align-items: center;
+                margin: 0 auto;
+                padding: 10px;
+                width: 260px;
+                margin-top: 70px;
+                font-size: 18px;
+                
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+                &:hover{
+                    transform: translate(-50%, -50%) scale(.9);
+                    animation: pulse 1s linear infinite;
+                }
+            }
+        }
+        .next_and_back_slide_show{
+            button.left-arrow{
+                border: none;
+                background: transparent;
+                float: left;
+                margin-top: 200px;
+                margin-left: 29%;
+                
+                img{
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+            button.right-arrow{
+                border: none;
+                background: transparent;
+                float: right;
+                margin-top: 200px;
+                margin-right: 29%;
+                
+                img{
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+        }
+        .portfolio-item{
+            
+            a{
+                img{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 auto;
+                    width: 340px;
+                    height: 220px;
+                    max-width: 100%;
+                    margin-top: 120px;
+                }
+            }
+        }
+        .portfolio-text{
+            h2{
+                text-align: center;
+                font-family: 'Rokkitt', serif;
+                margin-top: 200px;
+                font-size: 27px;
+                
+                b{
+                    background: -webkit-linear-gradient(0.25turn,#146B7E,#2BD8FE);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+            img{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                width: 172px;
+                height: auto;
+                margin-top: -10px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1920px) and (max-width: 2559px){
+    #portfolio{
+        .getproject{
+            button {
+                border: none;
+                border-radius: 25px;
+                background: linear-gradient(0.25turn, #1DA1A9, #10D2FD);
+                display: flex;
+                justify-content: center;
+                flex-direction: column; 
+                align-items: center;
+                margin: 0 auto;
+                padding: 10px;
+                width: 260px;
+                margin-top: 70px;
+                font-size: 18px;
+                
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+                &:hover{
+                    transform: translate(-50%, -50%) scale(.9);
+                    animation: pulse 1s linear infinite;
+                }
+            }
+        }
+        .next_and_back_slide_show{
+            button.left-arrow{
+                border: none;
+                background: transparent;
+                float: left;
+                margin-top: 200px;
+                margin-left: 31%;
+                
+                img{
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+            button.right-arrow{
+                border: none;
+                background: transparent;
+                float: right;
+                margin-top: 200px;
+                margin-right: 31%;
+                
+                img{
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+        }
+        .portfolio-item{
+            
+            a{
+                img{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 auto;
+                    width: 340px;
+                    height: 220px;
                     max-width: 100%;
                     margin-top: 120px;
                 }
