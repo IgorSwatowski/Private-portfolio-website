@@ -26,11 +26,8 @@
   <link rel="stylesheet" href="scss/quote.css"/>
   <link rel="stylesheet" href="scss/contact.css"/>
   <link rel="stylesheet" href="scss/footer.css"/>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-  />
-  <link rel="stylesheet" href="vendor/animate//animate.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- END SCRIPTS -->
 
@@ -41,7 +38,7 @@
 <body>
 
 <header>
-  <div class="logo wow fadeInDown" data-wow-duration="2s">
+  <div class="logo" data-aos="fade-down" data-wos-offset="0" data-aos-delay="400" data-aos-duration="500">
     <img src="img/logo.png"/>
   </div>
   <button class="hamburger">
@@ -61,17 +58,17 @@
 </header>
 
 <div id="banner-top-info">
-   <div class="image wow fadeInRight">
+   <div class="image" data-aos="fade-down" data-wos-offset="0" data-aos-delay="400" data-aos-duration="500">
      <img src="img/particles_top.png"/>
    </div>
-   <div class="author wow fadeInDown">
+   <div class="author" data-aos="fade-down" data-wos-offset="0" data-aos-delay="400" data-aos-duration="500">
     <h1>Igor Swatowski</h1>
     <div class="element"></div>
     <h2>Nowoczesna strona?</h2>
     <p>Istnieją 3 odpowiedzi na projekt -<br> tak, nie i WOW! 
       Wow jest <br>moim celem.</p>
    </div>
-   <div class="button-area wow fadeInUp" data-wow-duration="1s">
+   <div class="button-area" data-aos="fade-down" data-wos-offset="0" data-aos-delay="600" data-aos-duration="400">
     <button><a href="#offer">Sprawdź Ofertę</a></button>
   </div>
    <div class="image_abstract_item">
@@ -81,64 +78,67 @@
 </div>
 
 <div id="about-me">
-  <h1 class="wow zoomIn">Kim jestem?<img src="img/mlotek.png"/></h1>
-  <div class="info_about_me wow fadeInDown">
+  <h1 data-aos="fade-down" data-wos-offset="0" data-aos-delay="350" data-aos-duration="350">Kim jestem?<img src="img/mlotek.png"/></h1>
+  <div class="info_about_me" data-aos="fade-down" data-wos-offset="0" data-aos-delay="350" data-aos-duration="450">
      <p>Na imię mi Igor i zapewne szukasz swojego idealnego rozwiązania do stworzenia wizerunku w sieci. 
        Trafiłeś do właściwej osoby, programuję od kilku lat a każda witryna jest tworzona na potrzeby indywidualne. Staram się poznać drugą osobę, dowiedzieć się czego tak właściwie oczekuje ode mnie. 
        Następnie przystępuje do pracy a TY pod koniec robisz WOW.    
      </p>
-     <div class="block_element wow fadeInLeft"></div>  
+     <div class="block_element"></div>  
   </div>
-  <button class="wow slideInLeft"><a href="#contact">Tak, poproszę nową stronę</a></button>
-  <img src="img/abstractitem.png" width="50" heigth="50">
+  <button><a href="#contact">Tak, poproszę nową stronę</a></button>
+  <img src="img/abstractitem.png" width="50" heigth="50" data-aos="fade-down" data-wos-offset="0" data-aos-delay="450" data-aos-duration="350">
 </div>
   
 <div id="portfolio">
-     <div class="portfolio-text wow fadeInDown">
+     <div class="portfolio-text" data-aos="fade-down" data-wos-offset="0" data-aos-delay="400" data-aos-duration="500">
        <h2>Sprawdź moje realizacje. Dowiesz się, dlaczego <b>wszyscy</b> moi klienci są zadowoleni.</h2>
        <img src="img/grade.png"/>
      </div>
-     <div class="next_and_back_slide_show wow fadeInUp">
+     <div class="next_and_back_slide_show" data-aos="fade-down" data-wos-offset="0" data-aos-delay="350" data-aos-duration="500">
       <button class="left-arrow" onclick="plusDivs(-1)"><img src="img/back.svg"></button>
       <button class="right-arrow" onclick="plusDivs(+1)"><img src="img/next.svg"></button>
      </div>
-     <div class="portfolio-item wow fadeInUp">
+     <div class="portfolio-item" data-aos="fade-down" data-wos-offset="0" data-aos-delay="350" data-aos-duration="500">
       <a href="https://flamboyant-davinci-a2e95c.netlify.app/"><img src="img/monitor.png"/></a>
      </div>
      <div class="portfolio-item">
       <a href="https://4hest.pl"><img src="img/monitor2.png"/></a>
     </div>
-    <div class="getproject wow slideInRight">
+    <div class="portfolio-item">
+    	<a href="https://happy-rosalind-ba9eb7.netlify.app/"><img src="img/monitor3.png"/></a>
+    </div>
+    <div class="getproject" data-aos="fade-down" data-wos-offset="0" data-aos-delay="350" data-aos-duration="500">
       <button><a href="#contact">Podoba mi się, poproszę i ja</a></button>
     </div>
 </div>
 
 <div id="offertext">
-  <h2 class="wow fadeInDown">Dlaczego ja i co mogę <b>Tobie</b> zaoferować?<div class="element"></div></h2>
+  <h2 data-aos="fade-down" data-wos-offset="0" data-aos-delay="300" data-aos-duration="500">Dlaczego ja i co mogę <b>Tobie</b> zaoferować?<div class="element"></div></h2>
 </div>
 
-<div id="offer">
-  <div class="box-item wow fadeInLeft">
+<div id="offer" data-aos="fade-down" data-wos-offset="0" data-aos-delay="350" data-aos-duration="350">
+  <div class="box-item">
     <img src="img/firstIcon.png">
     <p>Do każdej realizacji, otrzymujesz ode mnie instrukcję obsługi strony oraz pełne wsparcie techniczne na wypadek problemów.</p>
   </div>
-  <div class="box-item wow fadeInUp">
+  <div class="box-item">
     <img src="img/SecondIcon.png">
     <p>Wygląd strony internetowej albo przyciąga klientów albo odrzuca. Zadbam o to, aby stworzyć idealny wizerunek Twojej firmy, który ich pozyska.</p>
   </div>
-  <div class="box-item wow fadeInRight">
+  <div class="box-item">
     <img src="img/ThirdIcon.png">
     <p>Najlepsze rozwiązanie dla Ciebie lub dla Twojej firmy. Przedstaw mi swój pomysł lub po prostu zdaj się na mnie.</p>
   </div>
 </div>
   
 <div id="quote">
-  <p class="wow fadeInUp">„Uzyskanie wysokiej jakości strony internetowej nie jest wydatkiem, ale inwestycją” - Christopher Dayagdag</p>
+  <p>„Uzyskanie wysokiej jakości strony internetowej nie jest wydatkiem, ale inwestycją” - Christopher Dayagdag</p>
 </div>
 
 <div id="contact">
-  <h2 class="wow fadeInDown">Skontaktuj się ze mną a omówimy <b>projekt.</b></h2>
-  <div class="box-item-contact wow fadeInUp">
+  <h2 data-aos="fade-down" data-wos-offset="0" data-aos-delay="250" data-aos-duration="250">Skontaktuj się ze mną a omówimy <b>projekt.</b></h2>
+  <div class="box-item-contact" data-aos="fade-down" data-wos-offset="0" data-aos-delay="250" data-aos-duration="250">
     <img src="img/email.svg">
     <p>admin@convertcode.pl</p>
     <img src="img/ig.png">
@@ -156,11 +156,11 @@
   </div>
 </div>
 
+
+<script>
+  AOS.init();
+</script>
 <script src="js/smoothScroll.js"></script>
-<script src="vendor/wow/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
 <script src="js/hamburger-menu.js"></script>
 <script src="js/slide-show.js"></script>
 </body>
