@@ -264,7 +264,7 @@
         justify-content: space-between;
         align-items: center;
          .box-item{
-             background-color: rgb(231, 231, 231);
+             background-color: rgb(240, 240, 240);
              border-radius: 25px;
              padding: 15px;
              margin-bottom: 50px;
@@ -352,6 +352,195 @@
                  margin-top: 40px;
                  margin-bottom: 50px;
                  font-size: 20px;
+                 font-family: 'Rokkitt', serif;
+                 color: #000;
+                 font-weight: bold;
+             }
+         }
+    }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1680px){
+    #offertext{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2{
+            font-family: 'Rokkitt', serif;
+            margin-top: 200px;
+            font-size: 28px;
+            
+            .element{
+                position: absolute;
+                background-color: rgb(26, 186, 235);
+                    width: 135px;
+                    height: 34px;
+                    margin-top: -46px;
+                    margin-left: 334px;
+                    z-index: -1;
+                    opacity: 0.8;
+            }
+            
+            b{
+             background: -webkit-linear-gradient(0.25turn,#146B7E,#2BD8FE);
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+            }
+         }
+     }
+    #offer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         .box-item{
+             background-color: rgb(240, 240, 240);
+             border-radius: 25px;
+             padding: 15px;
+             margin-bottom: 50px;
+             margin-top: 110px;
+             width: 350px;
+             margin-right: 3%;
+             margin-left: 3%;
+
+             img{
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 width: 64px;
+                 height: 64px;
+                 margin: 0 auto;
+                 margin-top: 12px;
+             }
+             p{
+                 text-align: center;
+                 margin-top: 40px;
+                 margin-bottom: 50px;
+                 font-size: 20px;
+                 font-family: 'Rokkitt', serif;
+                 color: #000;
+                 font-weight: bold;
+             }
+         }
+    }
+}
+@media only screen and (min-width: 1680px) and (max-width: 1919px){
+    #offertext{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2{
+            font-family: 'Rokkitt', serif;
+            margin-top: 200px;
+            font-size: 28px;
+            
+            .element{
+                position: absolute;
+                background-color: rgb(26, 186, 235);
+                    width: 135px;
+                    height: 34px;
+                    margin-top: -46px;
+                    margin-left: 334px;
+                    z-index: -1;
+                    opacity: 0.8;
+            }
+            
+            b{
+             background: -webkit-linear-gradient(0.25turn,#146B7E,#2BD8FE);
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+            }
+         }
+     }
+    #offer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         .box-item{
+             background-color: rgb(240, 240, 240);
+             border-radius: 25px;
+             padding: 15px;
+             margin-bottom: 50px;
+             margin-top: 110px;
+             width: 350px;
+             margin-right: 3%;
+             margin-left: 3%;
+
+             img{
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 width: 64px;
+                 height: 64px;
+                 margin: 0 auto;
+                 margin-top: 12px;
+             }
+             p{
+                 text-align: center;
+                 margin-top: 40px;
+                 margin-bottom: 50px;
+                 font-size: 20px;
+                 font-family: 'Rokkitt', serif;
+                 color: #000;
+                 font-weight: bold;
+             }
+         }
+    }
+}
+@media only screen and (min-width: 1920px) and (max-width: 2559px){
+    #offertext{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2{
+            font-family: 'Rokkitt', serif;
+            margin-top: 200px;
+            font-size: 28px;
+            
+            .element{
+                position: absolute;
+                background-color: rgb(26, 186, 235);
+                    width: 135px;
+                    height: 34px;
+                    margin-top: -46px;
+                    margin-left: 334px;
+                    z-index: -1;
+                    opacity: 0.8;
+            }
+            
+            b{
+             background: -webkit-linear-gradient(0.25turn,#146B7E,#2BD8FE);
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+            }
+         }
+     }
+    #offer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         .box-item{
+             background-color: rgb(240, 240, 240);
+             border-radius: 25px;
+             padding: 15px;
+             margin-bottom: 50px;
+             margin-top: 110px;
+             width: 450px;
+             margin-right: 3%;
+             margin-left: 3%;
+
+             img{
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 width: 64px;
+                 height: 64px;
+                 margin: 0 auto;
+                 margin-top: 12px;
+             }
+             p{
+                 text-align: center;
+                 margin-top: 40px;
+                 margin-bottom: 50px;
+                 font-size: 21px;
                  font-family: 'Rokkitt', serif;
                  color: #000;
                  font-weight: bold;
