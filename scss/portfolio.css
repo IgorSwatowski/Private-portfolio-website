@@ -30,6 +30,9 @@
     width: 35px;
     height: 35px;
   }
+  #portfolio .next_and_back_slide_show button.left-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .next_and_back_slide_show button.right-arrow {
     border: none;
     background: transparent;
@@ -40,6 +43,9 @@
     width: 35px;
     height: 35px;
   }
+  #portfolio .next_and_back_slide_show button.right-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .portfolio-item a img {
     display: flex;
     justify-content: center;
@@ -49,6 +55,12 @@
     height: 160px;
     max-width: 100%;
     margin-top: 120px;
+  }
+  #portfolio .portfolio-item a img:hover {
+    cursor: pointer;
+  }
+  #portfolio .portfolio-item a:hover {
+    cursor: auto;
   }
   #portfolio .portfolio-text h2 {
     text-align: center;
@@ -105,6 +117,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.left-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .next_and_back_slide_show button.right-arrow {
     border: none;
     background: transparent;
@@ -116,6 +131,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.right-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .portfolio-item a img {
     display: flex;
     justify-content: center;
@@ -125,6 +143,12 @@
     height: 210px;
     max-width: 100%;
     margin-top: 120px;
+  }
+  #portfolio .portfolio-item a img:hover {
+    cursor: pointer;
+  }
+  #portfolio .portfolio-item a:hover {
+    cursor: auto;
   }
   #portfolio .portfolio-text h2 {
     text-align: center;
@@ -182,6 +206,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.left-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .next_and_back_slide_show button.right-arrow {
     border: none;
     background: transparent;
@@ -193,6 +220,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.right-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .portfolio-item a img {
     display: flex;
     justify-content: center;
@@ -202,6 +232,12 @@
     height: 210px;
     max-width: 100%;
     margin-top: 120px;
+  }
+  #portfolio .portfolio-item a img:hover {
+    cursor: pointer;
+  }
+  #portfolio .portfolio-item a:hover {
+    cursor: auto;
   }
   #portfolio .portfolio-text h2 {
     text-align: center;
@@ -259,6 +295,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.left-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .next_and_back_slide_show button.right-arrow {
     border: none;
     background: transparent;
@@ -270,6 +309,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.right-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .portfolio-item a img {
     display: flex;
     justify-content: center;
@@ -279,6 +321,12 @@
     height: 210px;
     max-width: 100%;
     margin-top: 120px;
+  }
+  #portfolio .portfolio-item a img:hover {
+    cursor: pointer;
+  }
+  #portfolio .portfolio-item a:hover {
+    cursor: auto;
   }
   #portfolio .portfolio-text h2 {
     text-align: center;
@@ -336,6 +384,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.left-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .next_and_back_slide_show button.right-arrow {
     border: none;
     background: transparent;
@@ -347,6 +398,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.right-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .portfolio-item a img {
     display: flex;
     justify-content: center;
@@ -356,6 +410,12 @@
     height: 210px;
     max-width: 100%;
     margin-top: 120px;
+  }
+  #portfolio .portfolio-item a img:hover {
+    cursor: pointer;
+  }
+  #portfolio .portfolio-item a:hover {
+    cursor: auto;
   }
   #portfolio .portfolio-text h2 {
     text-align: center;
@@ -413,6 +473,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.left-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .next_and_back_slide_show button.right-arrow {
     border: none;
     background: transparent;
@@ -424,6 +487,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.right-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .portfolio-item a img {
     display: flex;
     justify-content: center;
@@ -433,6 +499,12 @@
     height: 210px;
     max-width: 100%;
     margin-top: 120px;
+  }
+  #portfolio .portfolio-item a img:hover {
+    cursor: pointer;
+  }
+  #portfolio .portfolio-item a:hover {
+    cursor: auto;
   }
   #portfolio .portfolio-text h2 {
     text-align: center;
@@ -490,6 +562,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.left-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .next_and_back_slide_show button.right-arrow {
     border: none;
     background: transparent;
@@ -501,6 +576,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.right-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .portfolio-item a img {
     display: flex;
     justify-content: center;
@@ -510,6 +588,12 @@
     height: 220px;
     max-width: 100%;
     margin-top: 120px;
+  }
+  #portfolio .portfolio-item a img:hover {
+    cursor: pointer;
+  }
+  #portfolio .portfolio-item a:hover {
+    cursor: auto;
   }
   #portfolio .portfolio-text h2 {
     text-align: center;
@@ -567,6 +651,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.left-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .next_and_back_slide_show button.right-arrow {
     border: none;
     background: transparent;
@@ -578,6 +665,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.right-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .portfolio-item a img {
     display: flex;
     justify-content: center;
@@ -587,6 +677,12 @@
     height: 220px;
     max-width: 100%;
     margin-top: 120px;
+  }
+  #portfolio .portfolio-item a img:hover {
+    cursor: pointer;
+  }
+  #portfolio .portfolio-item a:hover {
+    cursor: auto;
   }
   #portfolio .portfolio-text h2 {
     text-align: center;
@@ -644,6 +740,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.left-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .next_and_back_slide_show button.right-arrow {
     border: none;
     background: transparent;
@@ -655,6 +754,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.right-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .portfolio-item a img {
     display: flex;
     justify-content: center;
@@ -664,6 +766,12 @@
     height: 220px;
     max-width: 100%;
     margin-top: 120px;
+  }
+  #portfolio .portfolio-item a img:hover {
+    cursor: pointer;
+  }
+  #portfolio .portfolio-item a:hover {
+    cursor: auto;
   }
   #portfolio .portfolio-text h2 {
     text-align: center;
@@ -721,6 +829,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.left-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .next_and_back_slide_show button.right-arrow {
     border: none;
     background: transparent;
@@ -732,6 +843,9 @@
     width: 44px;
     height: 44px;
   }
+  #portfolio .next_and_back_slide_show button.right-arrow img:hover {
+    cursor: pointer;
+  }
   #portfolio .portfolio-item a img {
     display: flex;
     justify-content: center;
@@ -741,6 +855,12 @@
     height: 220px;
     max-width: 100%;
     margin-top: 120px;
+  }
+  #portfolio .portfolio-item a img:hover {
+    cursor: pointer;
+  }
+  #portfolio .portfolio-item a:hover {
+    cursor: auto;
   }
   #portfolio .portfolio-text h2 {
     text-align: center;
